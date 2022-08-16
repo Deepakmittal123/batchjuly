@@ -11,6 +11,7 @@ namespace deepak
         public int MyProperty { get; set; }
         
              public string MyProperty { get; set; }
-        
+
+        public int16 MyProperty { get; set; }
     }
 }
