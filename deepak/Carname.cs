@@ -9,5 +9,8 @@ namespace deepak
     internal class Carname
     {
         public int MyProperty { get; set; }
+        
+             public string MyProperty { get; set; }
+        
     }
 }
