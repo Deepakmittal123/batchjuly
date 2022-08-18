@@ -67,14 +67,38 @@ namespace deepak
 
     //    }
     //}    
+    //{
+    //    public string name { get; set; }
+
+
+    //    public int age { get; set; }
+
+    //}
     {
-        public string name { get; set; }
+        public string GetObj()
+        {
+            string objname = "rahul";
+            return objname;
 
-
-        public int age { get; set; }
+        }
         
-    }
+        public int Getobj1()
+        {
+            int objage = 18;
+            return objage;
 
+        }
+    
+        public string GetValue()
+        {
+            string objsub = "physis";
+            return objsub;
+        }
+         
+       
+         
+
+    }
 }
 
 
